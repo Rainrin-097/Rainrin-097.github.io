@@ -5,9 +5,9 @@ baseurl: "" # 通常留空
 url: "https://rainrin-097.github.io" # 替换为你的实际用户名
 
 # 构建设置
-theme: cayman
+  remote_theme: pages-themes/cayman@v0.2.0
 plugins:
-  - jekyll-feed
+- jekyll-remote-theme # add this line to the plugins list if you already have one
 
 # 作者信息
 author:
