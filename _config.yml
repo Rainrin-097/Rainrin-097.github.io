@@ -7,8 +7,13 @@ url: "https://rainrin-097.github.io" # 替换为你的实际用户名
 # 构建设置
 remote_theme: pages-themes/cayman@v0.2.0
 plugins:
- - jekyll-remote-theme # add this line to the plugins list if you already have one
+  - jekyll-remote-theme # add this line to the plugins list if you already have one
+  - jekyll-feed 
 
 # 作者信息
 author:
   name: "Rin"
+
+# RSS 订阅设置
+feed:
+  path: atom.xml
