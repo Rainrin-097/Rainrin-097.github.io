@@ -5,7 +5,7 @@ baseurl: "" # 通常留空
 url: "https://rainrin-097.github.io" # 替换为你的实际用户名
 
 # 构建设置
-theme: minima
+theme: cayman
 plugins:
   - jekyll-feed
 
