@@ -1,3 +1,7 @@
+# 强制使用 GitHub Pages 官方环境
+jekyll:
+  version: 3.9.0
+
 # 站点设置
 title: "Rin's Blog"
 description: "Welcome to my blog"
@@ -5,7 +9,7 @@ baseurl: ""
 url: "https://rainrin-097.github.io"
 
 # 构建设置
-remote_theme: cotes2020/jekyll-theme-chirpy@v5.0.0  # 指定具体版本
+remote_theme: cotes2020/jekyll-theme-chirpy@v5.0.0
 
 # Chirpy 主题配置
 chirpy:
@@ -14,6 +18,9 @@ chirpy:
   
   # 语言: zh-CN=简体中文, en=英文
   lang: zh-CN
+  
+  # 禁用阅读时间功能（解决 Liquid 参数错误）
+  read_time: false
   
   # 网站图标（可选）
   # favicon: /assets/images/favicon.png
