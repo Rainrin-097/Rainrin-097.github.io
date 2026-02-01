@@ -5,7 +5,6 @@ baseurl: ""
 url: "https://rainrin-097.github.io"
 
 # 构建设置
-- remote_theme: cotes2020/jekyll-theme-chirpy@latest
 + remote_theme: cotes2020/jekyll-theme-chirpy@v5.0.0  # 指定具体版本
 
 # Chirpy 主题配置
