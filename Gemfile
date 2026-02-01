@@ -8,3 +8,8 @@ gem "jekyll-remote-theme"
 
 # GitHub 元数据插件（可选但推荐）
 gem "jekyll-github-metadata"
+
+gem "jekyll-feed"
+gem "jekyll-paginate"
+gem "jekyll-sitemap"
+gem "jekyll-seo-tag"
