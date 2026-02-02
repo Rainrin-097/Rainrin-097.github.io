@@ -4,7 +4,12 @@ title: "Rin's Blog"
 description: "欢迎来到我的技术博客"
 ---
 
-# 欢迎来到我的技术博客！
+<nav>
+  <a href="{{ '/' | relative_url }}">首页</a> |
+  <a href="{{ '/about/' | relative_url }}">关于我</a>
+</nav>
+
+# 欢迎来到我的技术博客
 
 这里将分享我的编程学习历程和技术心得。
 
