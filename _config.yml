@@ -1,37 +1,11 @@
-# 强制使用 GitHub Pages 官方环境
-jekyll:
-  version: 3.9.0
-
 # 站点设置
 title: "Rin's Blog"
 description: "Welcome to my blog"
 baseurl: ""
 url: "https://rainrin-097.github.io"
 
-# 构建设置
-remote_theme: cotes2020/jekyll-theme-chirpy@v5.0.0
-
-# Chirpy 主题配置
-chirpy:
-  # 主题模式: dual=亮暗双模式, light=仅亮色, dark=仅暗色
-  mode: dual
-  
-  # 语言: zh-CN=简体中文, en=英文
-  lang: zh-CN
-  
-  # 禁用阅读时间功能（解决 Liquid 参数错误）
-  read_time: false
-  
-  # 网站图标（可选）
-  # favicon: /assets/images/favicon.png
-
-# 插件配置
-plugins:
-  - jekyll-remote-theme
-  - jekyll-feed
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-seo-tag
+# 使用 GitHub 官方 Merlot 主题
+theme: jekyll-theme-merlot
 
 # 作者信息
 author:
@@ -54,19 +28,6 @@ kramdown:
 # 网站地图
 sitemap: true
 
-# Google Analytics（可选，暂时注释掉）
-# google_analytics:
-#   id: UA-XXXXXXXXX-X
-
-# 评论系统（可选，暂时注释掉）
-# utterances:
-#   repo: Rainrin-097/Rainrin-097.github.io
-#   issue_term: pathname
-#   theme: github-light
-
-# 社交链接（可选，暂时注释掉）
-# social:
-#   - type: github
-#     url: https://github.com/Rainrin-097
-#   - type: email
-#     url: mailto:your.email@example.com
+# RSS 订阅
+feed:
+  path: feed.xml
