@@ -2,8 +2,8 @@
 ---
 @import "{{ site.theme }}";
 /* =============
-	 有效内容区域变宽
-	 ============= */
+     有效内容区域变宽
+     ============= */
 
 /* 桌面端：更宽的容器 */
 @media (min-width: 64em) {
@@ -11,8 +11,12 @@
     .container,
     .container-lg,
     .container-xl,
-    .container-xxl {
+    .container-xxl,
+    .main-content,
+    .page-content {
         max-width: 84rem !important;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
@@ -21,8 +25,12 @@
 
     .container,
     .container-md,
-    .container-lg {
+    .container-lg,
+    .main-content,
+    .page-content {
         max-width: 60rem !important;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
