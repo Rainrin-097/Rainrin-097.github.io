@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Rin's Blog"
-description: "欢迎来到我的技术博客"
+description: "欢迎来到我的博客"
 ---
 
 <nav>
@@ -26,4 +26,5 @@ description: "欢迎来到我的技术博客"
 ---
 
 - *去往遗痕 明日消损 值此栖处 四方情深*
+
 *感谢访问！*

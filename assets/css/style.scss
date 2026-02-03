@@ -1,0 +1,33 @@
+--- ---
+/* =============
+	 有效内容区域变宽
+	 ============= */
+
+/* 桌面端：更宽的容器 */
+@media (min-width: 64em) {
+
+    .container,
+    .container-lg,
+    .container-xl,
+    .container-xxl {
+        max-width: 84rem !important;
+    }
+}
+
+/* 平板端：适中加宽 */
+@media (min-width: 48em) and (max-width: 63.99em) {
+
+    .container,
+    .container-md,
+    .container-lg {
+        max-width: 60rem !important;
+    }
+}
+
+/* 移动端：保持原样 */
+@media (max-width: 47.99em) {
+    .container {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
